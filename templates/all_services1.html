@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>All Services</title>
+        <link rel="icon" href="/static/images/logo.png">
+    </head>
+    <body>
+
+        <!-- Databases -->
+
+        <div id="databases">
+           <h1>Databases</h1>
+
+            <!-- Database 1 -->
+
+            <div id="database1">
+                <a href="/database_1"><h3>Database 1</h3></a>
+                <table style="width:100%" style="height: 40px" style="cellspacing: 0px">
+                <thead>
+                  <tr>
+                    <th></th>
+                    <th style="text-align: center; vertical-align: middle;">Status</th>
+                  </tr>
+                </thead>
+                {% for row in db1data %}
+                    <tr>
+                        <td><img src="{{ row[0] }}"></td>
+                        <td style="text-align: center; vertical-align: middle;">{{ row[1] }}</td>
+                    </tr>
+                    {% endfor %}
+                </table>
+            </div>
+
+            <!-- Database 2 -->
+            <div id="database2">
+                <a href="/database_2"><h3>Database 2</h3></a>
+                <table style="width:100%" style="height: 40px" style="cellspacing: 0px">
+                <thead>
+                  <tr>
+                    <th></th>
+                    <th style="text-align: center; vertical-align: middle;">Status</th>
+                  </tr>
+                </thead>
+                {% for row in db2data %}
+                    <tr>
+                        <td><img src="{{ row[0] }}"></td>
+                        <td style="text-align: center; vertical-align: middle;">{{ row[1] }}</td>
+                    </tr>
+                    {% endfor %}
+                </table>
+            </div>
+        </div>
+
+        <!-- Web Apps -->
+
+        <a href="/web_apps"><h1>Web Apps</h1></a>
+        <div id="web_apps">
+
+            <!-- Covid 19 Vraelys -->
+            <div id="covid">
+                <h4>Linden Covid 19 Vraelys</h4>
+                <table style="width:100%" style="height: 40px" style="cellspacing: 0px">
+                    <thead>
+                      <tr>
+                        <th></th>
+                        <th style="text-align: center; vertical-align: middle;">Status</th>
+                      </tr>
+                    </thead>
+                    {% for row in coviddata %}
+                        <tr>
+                            <td><img src="{{ row[0] }}"></td>
+                            <td style="text-align: center; vertical-align: middle;">{{ row[1] }}</td>
+                        </tr>
+                        {% endfor %}
+                </table>
+            </div>
+
+            <!-- Helpdesk -->
+            <div id="helpdesk">
+                <h4>Helpdesk</h4>
+                <table style="width:100%" style="height: 40px" style="cellspacing: 0px">
+                    <thead>
+                      <tr>
+                        <th></th>
+                        <th style="text-align: center; vertical-align: middle;">Status</th>
+                      </tr>
+                    </thead>
+                    {% for row in helpdeskdata %}
+                        <tr>
+                            <td><img src="{{ row[0] }}"></td>
+                            <td style="text-align: center; vertical-align: middle;">{{ row[1] }}</td>
+                        </tr>
+                        {% endfor %}
+                </table>
+            </div>
+
+            <!-- Helpdesk Admin -->
+            <div id="helpdesk_admin">
+                <h4>Helpdesk Admin Portal</h4>
+                <table style="width:100%" style="height: 40px" style="cellspacing: 0px">
+                    <thead>
+                      <tr>
+                        <th></th>
+                        <th style="text-align: center; vertical-align: middle;">Status</th>
+                      </tr>
+                    </thead>
+                    {% for row in helpdeskadmindata %}
+                        <tr>
+                            <td><img src="{{ row[0] }}"></td>
+                            <td style="text-align: center; vertical-align: middle;">{{ row[1] }}</td>
+                        </tr>
+                        {% endfor %}
+                </table>
+            </div>
+
+            <!-- Plex - FSrl -->
+            <div id="plex_fsrl">
+                <h4>Plex - FSrl</h4>
+                <table style="width:100%" style="height: 40px" style="cellspacing: 0px">
+                    <thead>
+                      <tr>
+                        <th></th>
+                        <th style="text-align: center; vertical-align: middle;">Status</th>
+                      </tr>
+                    </thead>
+                    {% for row in plexdata %}
+                        <tr>
+                            <td><img src="{{ row[0] }}"></td>
+                            <td style="text-align: center; vertical-align: middle;">{{ row[1] }}</td>
+                        </tr>
+                        {% endfor %}
+                </table>
+            </div>
+
+            <!-- Pensioen -->
+            <div id="pensioen">
+                <h4>Pensioen Calculator</h4>
+                <table style="width:100%" style="height: 40px" style="cellspacing: 0px">
+                    <thead>
+                      <tr>
+                        <th></th>
+                        <th style="text-align: center; vertical-align: middle;">Status</th>
+                      </tr>
+                    </thead>
+                    {% for row in pensioendata %}
+                        <tr>
+                            <td><img src="{{ row[0] }}"></td>
+                            <td style="text-align: center; vertical-align: middle;">{{ row[1] }}</td>
+                        </tr>
+                        {% endfor %}
+                </table>
+            </div>
+        </div>
+    </body>
+</html>
