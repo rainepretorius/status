@@ -71,8 +71,8 @@ def all_services():
     """
 
     try:
-        server1 = psycopg2.connect(user='Python', password='VVd%MBK0i@8#86GJibThMi2sE&e*tb', host='db1.pretoriusse.net',
-                                   port='5432', database='Linden')
+        server1 = psycopg2.connect(user='**user**', password='**password**', host='**host**',
+                                   port='**port**', database='**database**')
         s1cursor = server1.cursor()
         s1cursor.execute("SELECT * FROM leerder_ouers")
         s1cursor.close()
@@ -91,8 +91,8 @@ def all_services():
     """
 
     try:
-        server1 = psycopg2.connect(user='Python', password='VVd%MBK0i@8#86GJibThMi2sE&e*tb', host='db2.pretoriusse.net',
-                                   port='5432', database='Blackjack')
+        server1 = psycopg2.connect(user='**user**', password='**password**', host='**host**',
+                                   port='**port**', database='**database**')
         s1cursor = server1.cursor()
         s1cursor.execute("SELECT * FROM player_chips")
         s1cursor.close()
@@ -245,8 +245,8 @@ def database1():
     Linden Database
     """
     try:
-        server1 = psycopg2.connect(user='Python', password='VVd%MBK0i@8#86GJibThMi2sE&e*tb', host='db1.pretoriusse.net',
-                                   port='5432', database='Linden')
+        server1 = psycopg2.connect(user='**user**', password='**password**', host='**host**',
+                                   port='**port**', database='**database**')
         s1cursor = server1.cursor()
         s1cursor.execute("SELECT * FROM leerder_ouers")
         s1cursor.close()
@@ -262,8 +262,8 @@ def database1():
     """
 
     try:
-        server1 = psycopg2.connect(user='Python', password='VVd%MBK0i@8#86GJibThMi2sE&e*tb', host='db1.pretoriusse.net',
-                                   port='5432', database='Authentication')
+        server1 = psycopg2.connect(user='**user**', password='**password**', host='**host**',
+                                   port='**port**', database='**database**')
         s1cursor = server1.cursor()
         s1cursor.execute("SELECT * FROM website")
         s1cursor.close()
@@ -279,8 +279,8 @@ def database1():
     """
 
     try:
-        server1 = psycopg2.connect(user='Python', password='VVd%MBK0i@8#86GJibThMi2sE&e*tb', host='db1.pretoriusse.net',
-                                   port='5432', database='Blackjack')
+        server1 = psycopg2.connect(user='**user**', password='**pasword**', host='**host**',
+                                   port='**port**', database='**database**')
         s1cursor = server1.cursor()
         s1cursor.execute("SELECT * FROM player_chips")
         s1cursor.close()
@@ -296,8 +296,8 @@ def database1():
     """
 
     try:
-        server1 = psycopg2.connect(user='Python', password='VVd%MBK0i@8#86GJibThMi2sE&e*tb', host='db1.pretoriusse.net',
-                                   port='5432', database='Covid19')
+        server1 = psycopg2.connect(user='**user**', password='**password**', host='**host**',
+                                   port='**port**', database='**database**')
         s1cursor = server1.cursor()
         s1cursor.execute("SELECT * FROM leerder_oggend")
         s1cursor.close()
@@ -313,8 +313,8 @@ def database1():
     """
 
     try:
-        server1 = psycopg2.connect(user='Python', password='VVd%MBK0i@8#86GJibThMi2sE&e*tb', host='db1.pretoriusse.net',
-                                   port='5432', database='Helpdesk')
+        server1 = psycopg2.connect(user='**user**', password='**password**', host='**host**',
+                                   port='**port**', database='**database**')
         s1cursor = server1.cursor()
         s1cursor.execute("SELECT * FROM open")
         s1cursor.close()
@@ -330,8 +330,8 @@ def database1():
     """
 
     try:
-        server1 = psycopg2.connect(user='Python', password='VVd%MBK0i@8#86GJibThMi2sE&e*tb', host='db1.pretoriusse.net',
-                                   port='5432', database='Shares')
+        server1 = psycopg2.connect(user='**user**', password='**password**', host='**host**',
+                                   port='**port**', database='**database**')
         s1cursor = server1.cursor()
         s1cursor.execute("SELECT * FROM altron")
         s1cursor.close()
@@ -358,8 +358,8 @@ def database2():
     Linden Database
     """
     try:
-        server1 = psycopg2.connect(user='Python', password='VVd%MBK0i@8#86GJibThMi2sE&e*tb', host='db2.pretoriusse.net',
-                                   port='5432', database='Linden')
+        server1 = psycopg2.connect(user='**user**', password='**password**', host='**host**',
+                                   port='**port**', database='**database**')
         s1cursor = server1.cursor()
         s1cursor.execute("SELECT * FROM leerder_ouers")
         s1cursor.close()
@@ -375,8 +375,8 @@ def database2():
     """
 
     try:
-        server1 = psycopg2.connect(user='Python', password='VVd%MBK0i@8#86GJibThMi2sE&e*tb', host='db2.pretoriusse.net',
-                                   port='5432', database='Authentication')
+        server1 = psycopg2.connect(user='**user**', password='**password**', host='**host**',
+                                   port='**port**', database='**database**')
         s1cursor = server1.cursor()
         s1cursor.execute("SELECT * FROM website")
         s1cursor.close()
@@ -392,8 +392,8 @@ def database2():
     """
 
     try:
-        server1 = psycopg2.connect(user='Python', password='VVd%MBK0i@8#86GJibThMi2sE&e*tb', host='db2.pretoriusse.net',
-                                   port='5432', database='Blackjack')
+        server1 = psycopg2.connect(user='**user**', password='**password**', host='**host**',
+                                   port='**port**', database='**database**')
         s1cursor = server1.cursor()
         s1cursor.execute("SELECT * FROM player_chips")
         s1cursor.close()
@@ -409,8 +409,8 @@ def database2():
     """
 
     try:
-        server1 = psycopg2.connect(user='Python', password='VVd%MBK0i@8#86GJibThMi2sE&e*tb', host='db2.pretoriusse.net',
-                                   port='5432', database='Covid19')
+        server1 = psycopg2.connect(user='**user**', password='**password**', host='**host**',
+                                   port='**port**', database='**database**')
         s1cursor = server1.cursor()
         s1cursor.execute("SELECT * FROM leerder_oggend")
         s1cursor.close()
@@ -426,8 +426,8 @@ def database2():
     """
 
     try:
-        server1 = psycopg2.connect(user='Python', password='VVd%MBK0i@8#86GJibThMi2sE&e*tb', host='db2.pretoriusse.net',
-                                   port='5432', database='Helpdesk')
+        server1 = psycopg2.connect(user='**user**', password='**password**', host='**host**',
+                                   port='**port**', database='**database**')
         s1cursor = server1.cursor()
         s1cursor.execute("SELECT * FROM open")
         s1cursor.close()
@@ -443,8 +443,8 @@ def database2():
     """
 
     try:
-        server1 = psycopg2.connect(user='Python', password='VVd%MBK0i@8#86GJibThMi2sE&e*tb', host='db2.pretoriusse.net',
-                                   port='5432', database='Shares')
+        server1 = psycopg2.connect(user='**user**', password='**password**', host='**host**',
+                                   port='**port**', database='**database**')
         s1cursor = server1.cursor()
         s1cursor.execute("SELECT * FROM altron")
         s1cursor.close()
